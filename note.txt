@@ -1,0 +1,7 @@
+Create ~/.secrets/certbot/cloudflare.ini
+
+Add:
+  dns_cloudflare_email = example@email.com
+  dns_cloudflare_api_key = 012345abcde54321edcbe (Global Cloudflare API key)
+
+chmod 600 ~/.secrets/certbot/cloudflare.ini
